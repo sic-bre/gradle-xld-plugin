@@ -10,8 +10,10 @@ apply plugin: 'groovy'
 dependencies {
   compile gradleApi()
   compile localGroovy()
-  compile "com.xebialabs.deployit.engine:remote-booter:2016.2.2"
-  compile group: 'com.google.guava', name: 'guava', version: '21.0'
+  compile "com.xebialabs.deployit.engine:remote-booter:2015.6.10"
+  compile "nl.javadude.scannit:scannit:1.4.1"
+  compile "com.jcraft:jzlib:1.1.3"
+  compile "com.google.guava:guava:22.0-android"
 
   testCompile group: 'junit', name: 'junit', version: '4.12'
 

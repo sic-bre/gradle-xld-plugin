@@ -1,0 +1,7 @@
+pluginManagement {
+    if(gradle.pluginManagmentRepos && gradle.pluginManagmentRepos.exists()) {
+        apply from: gradle.pluginManagmentRepos, to: pluginManagement
+    }
+}
+
+rootProject.name = 'HelloDeployment'

@@ -32,6 +32,7 @@ class DarConfigurationTaskTest {
     project.apply plugin: XlDeployPlugin
     project.version = "1.0"
     project.dependencies {
+      project.getRepositories().maven { url "https://nexus.standard.com:8443/nexus/repository/public/" }
       project.getRepositories().mavenCentral()
     }
 
