@@ -1,8 +1,8 @@
 plugins {
-  id "com.gradle.plugin-publish" version "0.9.7"
-  id "com.github.hierynomus.license" version "0.11.0"
-  id 'nebula.nebula-release' version '4.0.1'
-  id "com.jfrog.bintray" version "1.7.3"
+  id "com.gradle.plugin-publish" version "com.gradle.publish:plugin-publish-plugin:0.9.7"
+  id "com.github.hierynomus.license" version "gradle.plugin.nl.javadude.gradle.plugins:license-gradle-plugin:0.14.0"
+  id "nebula.nebula-release" version "com.netflix.nebula:nebula-release-plugin:4.0.1"
+  id "com.jfrog.bintray" version "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3"
 }
 
 apply plugin: 'groovy'
